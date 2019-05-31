@@ -6,9 +6,9 @@
     <arg name="y" default="0"/>
     <arg name="z" default="0.5"/>
     <!-- start world -->
-    <node name="gazebo" pkg="gazebo_ros" type="gazebo" 
+    <!--node name="gazebo" pkg="gazebo_ros" type="gazebo" 
    args="$(find gazebo_ros)/launch/empty_world.launch" 
-   respawn="false" output="screen" />
+   respawn="false" output="screen" /-->
     <!--start robot-->
     <node name="m2wr_spawn" pkg="gazebo_ros" 
     type="spawn_model" output="screen"
